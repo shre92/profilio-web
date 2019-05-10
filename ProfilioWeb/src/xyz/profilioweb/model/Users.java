@@ -7,8 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.sun.javafx.beans.IDProperty;
-
 @Entity
 @Table(name = "users")
 public class Users {
