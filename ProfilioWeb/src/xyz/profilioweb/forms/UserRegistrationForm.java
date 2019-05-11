@@ -6,7 +6,8 @@ public class UserRegistrationForm {
 	private String firstname;
 	private String lastname;
 	private String gender;
-	private String date;
+	private String dob;
+	
 	public String getUsername() {
 		return username;
 	}
@@ -37,11 +38,10 @@ public class UserRegistrationForm {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public String getDate() {
-		return date;
+	public String getDob() {
+		return dob;
 	}
-	public void setDate(String date) {
-		this.date = date;
+	public void setDob(String dob) {
+		this.dob = dob;
 	}
-	
 }

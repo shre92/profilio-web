@@ -7,10 +7,12 @@ import javax.persistence.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import xyz.profilioweb.dao.UserRegistrationDao;
 import xyz.profilioweb.model.Users;
 
+@Transactional
 @Repository
 public class UserRegistrationDaoImpl implements UserRegistrationDao{
 
